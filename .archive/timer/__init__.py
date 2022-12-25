@@ -9,6 +9,8 @@ Fields exceeding the maximum amount of the time interval are automatically refac
 
 Synopsis: <trigger> [[[hours]:][minutes]:]seconds [name]"""
 
+#  Copyright (c) 2022 Manuel Schneider
+
 from albert import warning, Item, FuncAction
 from threading import Timer
 from time import strftime, time, localtime
